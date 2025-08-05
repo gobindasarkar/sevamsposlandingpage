@@ -1,0 +1,47 @@
+/*
+------------- Table of content ----------------
+
+Template Name: Sevams Pos Responsive  HTML5 Template
+Template URI: https://sevamspos.com/
+Description: Sevams Pos Responsive  HTML5 Template
+Author: Gobinda Sarkar
+Author URI: https://sevamspos.com/
+Version: 1.0
+
+---------------------- common content ----------
+1.body reset content
+#.header-area
+#.hero-banner
+#.section-title
+#.feature-area
+#.about-area
+#.contact-area
+#.footer-area
+
+
+
+
+*/
+
+/*===============================
+ #.contact-area
+=================================*/
+
+
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "component/header.scss";
+@import "component/hero-banner";
+@import "component/section-title";
+@import "component/feature-area";
+@import "component/about-area";
+@import "component/contact-area";
+@import "component/footer.scss";

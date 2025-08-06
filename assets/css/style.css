@@ -22,9 +22,6 @@ Version: 1.0
 
 
 */
-/*===============================
- #.contact-area
-=================================*/
 :root {
   font-size: 62.5%;
   --primary-color: #284997;
@@ -799,6 +796,7 @@ scrollUp
   color: var(--tColor);
 }
 .single-value p {
+  margin: 0;
   font-size: 1.4rem;
   color: var(--mutedColor);
   font-weight: 400;
@@ -819,6 +817,7 @@ scrollUp
   transition: all 0.5s linear;
   text-align: center;
   background-color: var(--white);
+  height: 100%;
 }
 .single-schievement .icon {
   display: inline-flex;
@@ -846,6 +845,7 @@ scrollUp
   color: var(--tColor);
 }
 .single-schievement p {
+  margin: 0;
   font-size: 1.4rem;
   color: var(--mutedColor);
   font-weight: 400;
